@@ -12,9 +12,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8s/proprietary/system/etc/init/init.rilepdg.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.rilepdg.rc \
     vendor/samsung/r8s/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/samsung/r8s/proprietary/system/etc/restart_radio_process.sh:$(TARGET_COPY_OUT_SYSTEM)/etc/restart_radio_process.sh \
+    vendor/samsung/r8s/proprietary/system/lib/bootstrap/libm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/bootstrap/libm.so \
     vendor/samsung/r8s/proprietary/system/lib/libatparser.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libatparser.so \
     vendor/samsung/r8s/proprietary/system/lib/libfactoryutil.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfactoryutil.so \
     vendor/samsung/r8s/proprietary/system/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfloatingfeature.so \
+    vendor/samsung/r8s/proprietary/system/lib/libm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libm.so \
     vendor/samsung/r8s/proprietary/system/lib/libmdf.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmdf.so \
     vendor/samsung/r8s/proprietary/system/lib/libomission_avoidance.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libomission_avoidance.so \
     vendor/samsung/r8s/proprietary/system/lib/libpacm_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libpacm_client.so \
@@ -27,12 +29,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8s/proprietary/system/lib/vendor.samsung_slsi.hardware.configstore-utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung_slsi.hardware.configstore-utils.so \
     vendor/samsung/r8s/proprietary/system/lib/vendor.samsung_slsi.hardware.configstore@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung_slsi.hardware.configstore@1.0.so \
     vendor/samsung/r8s/proprietary/system/lib/vendor.samsung_slsi.hardware.eden_runtime@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung_slsi.hardware.eden_runtime@1.0.so \
+    vendor/samsung/r8s/proprietary/system/lib64/bootstrap/libm.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/bootstrap/libm.so \
     vendor/samsung/r8s/proprietary/system/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     vendor/samsung/r8s/proprietary/system/lib64/libatparser.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libatparser.so \
     vendor/samsung/r8s/proprietary/system/lib64/libeden_wrapper_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libeden_wrapper_system.so \
     vendor/samsung/r8s/proprietary/system/lib64/libfactoryutil.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfactoryutil.so \
     vendor/samsung/r8s/proprietary/system/lib64/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfloatingfeature.so \
+    vendor/samsung/r8s/proprietary/system/lib64/libm.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libm.so \
     vendor/samsung/r8s/proprietary/system/lib64/libmdf.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmdf.so \
+    vendor/samsung/r8s/proprietary/system/lib64/libnl.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libnl.so \
     vendor/samsung/r8s/proprietary/system/lib64/libomission_avoidance.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libomission_avoidance.so \
     vendor/samsung/r8s/proprietary/system/lib64/libpacm_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libpacm_client.so \
     vendor/samsung/r8s/proprietary/system/lib64/libsec_semRil.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsec_semRil.so \
@@ -48,6 +53,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/r8s/proprietary/system/lib/vendor.samsung.hardware.camera.provider@4.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.camera.provider@4.0.so \
     vendor/samsung/r8s/proprietary/vendor/bin/cbd:$(TARGET_COPY_OUT_VENDOR)/bin/cbd \
+    vendor/samsung/r8s/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/samsung/r8s/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine \
     vendor/samsung/r8s/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0_strongbox-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0_strongbox-service \
     vendor/samsung/r8s/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.3-service.eden-drv:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.3-service.eden-drv \
@@ -78,6 +84,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8s/proprietary/vendor/etc/gnss/gps.cer:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cer \
     vendor/samsung/r8s/proprietary/vendor/etc/gnss/gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.xml \
     vendor/samsung/r8s/proprietary/vendor/etc/hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hearing_aid_audio_policy_configuration.xml \
+    vendor/samsung/r8s/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/samsung/r8s/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/samsung/r8s/proprietary/vendor/etc/init/android.hardware.keymaster@4.0_strongbox-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0_strongbox-service.rc \
     vendor/samsung/r8s/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service.eden-drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service.eden-drv.rc \
@@ -117,6 +124,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8s/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/samsung/r8s/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
     vendor/samsung/r8s/proprietary/vendor/etc/wifi/indoorchannel.info:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/indoorchannel.info \
+    vendor/samsung/r8s/proprietary/vendor/etc/wlan_common_rc:$(TARGET_COPY_OUT_VENDOR)/etc/wlan_common_rc \
+    vendor/samsung/r8s/proprietary/vendor/etc/wlan_vendor_rc:$(TARGET_COPY_OUT_VENDOR)/etc/wlan_vendor_rc \
     vendor/samsung/r8s/proprietary/vendor/firmware/APBargeIn_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBargeIn_AUDIO_SLSI.bin \
     vendor/samsung/r8s/proprietary/vendor/firmware/APBiBF_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBiBF_AUDIO_SLSI.bin \
     vendor/samsung/r8s/proprietary/vendor/firmware/APDV_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APDV_AUDIO_SLSI.bin \
@@ -217,6 +226,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8s/proprietary/vendor/lib/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-impl.so \
     vendor/samsung/r8s/proprietary/vendor/lib/camera.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.5-impl.so \
     vendor/samsung/r8s/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
+    vendor/samsung/r8s/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/samsung/r8s/proprietary/vendor/lib/hw/audio.primary.exynos990.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.exynos990.so \
     vendor/samsung/r8s/proprietary/vendor/lib/hw/camera.exynos990.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.exynos990.so \
     vendor/samsung/r8s/proprietary/vendor/lib/hw/gatekeeper.exynos990.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.exynos990.so \
@@ -226,6 +236,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8s/proprietary/vendor/lib/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.default.so \
     vendor/samsung/r8s/proprietary/vendor/lib/hw/sound_trigger.primary.exynos990.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.exynos990.so \
     vendor/samsung/r8s/proprietary/vendor/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so \
+    vendor/samsung/r8s/proprietary/vendor/lib/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so \
     vendor/samsung/r8s/proprietary/vendor/lib/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosHWCService.so \
     vendor/samsung/r8s/proprietary/vendor/lib/libExynosOMX_Core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosOMX_Core.so \
     vendor/samsung/r8s/proprietary/vendor/lib/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosOMX_Resourcemanager.so \
@@ -252,6 +263,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8s/proprietary/vendor/lib/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthserver.so \
     vendor/samsung/r8s/proprietary/vendor/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthtzcommon.so \
     vendor/samsung/r8s/proprietary/vendor/lib/libbayergdccore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbayergdccore.so \
+    vendor/samsung/r8s/proprietary/vendor/lib/libcld80211.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcld80211.so \
     vendor/samsung/r8s/proprietary/vendor/lib/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcsc.so \
     vendor/samsung/r8s/proprietary/vendor/lib/libdatamod.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdatamod.so \
     vendor/samsung/r8s/proprietary/vendor/lib/libeden_model.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeden_model.so \
@@ -374,6 +386,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8s/proprietary/vendor/lib64/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.4-impl.so \
     vendor/samsung/r8s/proprietary/vendor/lib64/camera.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.5-impl.so \
     vendor/samsung/r8s/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
+    vendor/samsung/r8s/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/samsung/r8s/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl.so \
     vendor/samsung/r8s/proprietary/vendor/lib64/hw/camera.exynos990.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.exynos990.so \
     vendor/samsung/r8s/proprietary/vendor/lib64/hw/gatekeeper.exynos990.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.exynos990.so \
@@ -383,6 +396,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8s/proprietary/vendor/lib64/hw/memtrack.exynos990.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.exynos990.so \
     vendor/samsung/r8s/proprietary/vendor/lib64/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.default.so \
     vendor/samsung/r8s/proprietary/vendor/lib64/hw/vendor.samsung.hardware.audio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.audio@1.0-impl.so \
+    vendor/samsung/r8s/proprietary/vendor/lib64/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so \
     vendor/samsung/r8s/proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so \
     vendor/samsung/r8s/proprietary/vendor/lib64/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosHWCService.so \
     vendor/samsung/r8s/proprietary/vendor/lib64/libExynosOMX_Core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosOMX_Core.so \
@@ -403,6 +417,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8s/proprietary/vendor/lib64/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthtzcommon.so \
     vendor/samsung/r8s/proprietary/vendor/lib64/libbayergdccore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbayergdccore.so \
     vendor/samsung/r8s/proprietary/vendor/lib64/libcamera2ndk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera2ndk_vendor.so \
+    vendor/samsung/r8s/proprietary/vendor/lib64/libcld80211.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcld80211.so \
     vendor/samsung/r8s/proprietary/vendor/lib64/libcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcommon.so \
     vendor/samsung/r8s/proprietary/vendor/lib64/libcrane_compiler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcrane_compiler.so \
     vendor/samsung/r8s/proprietary/vendor/lib64/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcsc.so \
