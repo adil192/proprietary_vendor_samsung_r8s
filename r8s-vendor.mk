@@ -130,6 +130,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8s/proprietary/vendor/firmware/NPU_NFD_P4.7.tflite:$(TARGET_COPY_OUT_VENDOR)/firmware/NPU_NFD_P4.7.tflite \
     vendor/samsung/r8s/proprietary/vendor/firmware/SoundBoosterParam.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SoundBoosterParam.bin \
     vendor/samsung/r8s/proprietary/vendor/firmware/a2dpcom.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a2dpcom.bin \
+    vendor/samsung/r8s/proprietary/vendor/firmware/a96t356_r8s.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a96t356_r8s.bin \
     vendor/samsung/r8s/proprietary/vendor/firmware/abox_tplg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/abox_tplg.bin \
     vendor/samsung/r8s/proprietary/vendor/firmware/abox_tplg.conf:$(TARGET_COPY_OUT_VENDOR)/firmware/abox_tplg.conf \
     vendor/samsung/r8s/proprietary/vendor/firmware/avsyncmix.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/avsyncmix.bin \
