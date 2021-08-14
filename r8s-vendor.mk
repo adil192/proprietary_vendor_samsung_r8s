@@ -12,11 +12,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8s/proprietary/system/etc/init/init.rilepdg.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.rilepdg.rc \
     vendor/samsung/r8s/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/samsung/r8s/proprietary/system/etc/restart_radio_process.sh:$(TARGET_COPY_OUT_SYSTEM)/etc/restart_radio_process.sh \
-    vendor/samsung/r8s/proprietary/system/lib/bootstrap/libm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/bootstrap/libm.so \
     vendor/samsung/r8s/proprietary/system/lib/libatparser.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libatparser.so \
     vendor/samsung/r8s/proprietary/system/lib/libfactoryutil.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfactoryutil.so \
     vendor/samsung/r8s/proprietary/system/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfloatingfeature.so \
-    vendor/samsung/r8s/proprietary/system/lib/libm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libm.so \
     vendor/samsung/r8s/proprietary/system/lib/libmdf.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmdf.so \
     vendor/samsung/r8s/proprietary/system/lib/libomission_avoidance.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libomission_avoidance.so \
     vendor/samsung/r8s/proprietary/system/lib/libpacm_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libpacm_client.so \
@@ -29,15 +27,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8s/proprietary/system/lib/vendor.samsung_slsi.hardware.configstore-utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung_slsi.hardware.configstore-utils.so \
     vendor/samsung/r8s/proprietary/system/lib/vendor.samsung_slsi.hardware.configstore@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung_slsi.hardware.configstore@1.0.so \
     vendor/samsung/r8s/proprietary/system/lib/vendor.samsung_slsi.hardware.eden_runtime@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung_slsi.hardware.eden_runtime@1.0.so \
-    vendor/samsung/r8s/proprietary/system/lib64/bootstrap/libm.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/bootstrap/libm.so \
     vendor/samsung/r8s/proprietary/system/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     vendor/samsung/r8s/proprietary/system/lib64/libatparser.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libatparser.so \
     vendor/samsung/r8s/proprietary/system/lib64/libeden_wrapper_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libeden_wrapper_system.so \
     vendor/samsung/r8s/proprietary/system/lib64/libfactoryutil.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfactoryutil.so \
     vendor/samsung/r8s/proprietary/system/lib64/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfloatingfeature.so \
-    vendor/samsung/r8s/proprietary/system/lib64/libm.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libm.so \
     vendor/samsung/r8s/proprietary/system/lib64/libmdf.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmdf.so \
-    vendor/samsung/r8s/proprietary/system/lib64/libnl.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libnl.so \
     vendor/samsung/r8s/proprietary/system/lib64/libomission_avoidance.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libomission_avoidance.so \
     vendor/samsung/r8s/proprietary/system/lib64/libpacm_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libpacm_client.so \
     vendor/samsung/r8s/proprietary/system/lib64/libsec_semRil.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsec_semRil.so \
